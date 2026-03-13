@@ -1,5 +1,5 @@
-# 🔴 Ransomware Incident Response Playbook
-### Ubuntu Linux — All Environments
+### 🔴 Ransomware Incident Response Playbook
+#### Ubuntu Linux — All Environments
 
 
 ---
@@ -215,20 +215,6 @@ ansible-playbook scripts/ansible/playbooks/collect-forensics.yml \
 
 ---
 
-## 🏛 Regulatory Compliance
-
-This playbook addresses requirements from:
-
-| Framework | Relevance |
-|-----------|-----------|
-| **PCI-DSS v4.0** | Req 12.10 — Incident response plan requirements |
-| **GDPR** | Art. 33/34 — 72-hour breach notification |
-| **ISO/IEC 27035** | Information security incident management |
-| **NIST SP 800-61r2** | Computer Security Incident Handling Guide |
-| **Basel III/BCBS 239** | Operational resilience, data integrity |
-| **SWIFT CSCF** | Customer Security Controls Framework |
-
----
 
 ## 📋 Prerequisites
 
@@ -261,7 +247,6 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 Areas where contributions are especially valuable:
 - Additional ransomware family IoC signatures
-- Cloud-specific playbooks (AWS EC2, Azure VM, GCP)
 - SIEM-specific detection rules (Splunk, Elastic, QRadar)
 - Container/Kubernetes variants
 
