@@ -21,7 +21,7 @@ This repository provides a **complete operational playbook** for responding to r
 
 
 
-## 🗂 Repository Structure
+## 🗂 Repository Structure (IN DEV PROCESS ...)
 
 ```
 ransomware-ir-playbook/
