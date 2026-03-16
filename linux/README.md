@@ -111,31 +111,6 @@ sudo bash scripts/bash/isolate.sh --mode firewall --mgmt-ip 10.0.100.5
 
 
 
-## 📋 Prerequisites
-
-### On the IR Jumpbox / Analyst Machine
-```bash
-# Python dependencies
-pip3 install -r requirements.txt
-
-# Ansible
-pip3 install ansible ansible-lint
-
-# Optional: for report generation
-pip3 install jinja2 reportlab
-```
-
-### On Target Ubuntu Servers (for full forensics)
-```bash
-# LiME for memory capture (compile on target)
-sudo apt-get install linux-headers-$(uname -r) build-essential git
-
-# Volatility dependencies (on analyst machine)
-pip3 install volatility3
-```
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
